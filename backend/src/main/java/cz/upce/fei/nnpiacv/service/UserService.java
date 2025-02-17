@@ -21,19 +21,19 @@ public class UserService {
     public void init(){
 
         User user1 = new User(0L, "cool@email.cz", "heslo");
-        User user2 = new User(1L, "cool@email.cz", "heslo");
+        User user2 = new User(1L, "GRA@email.cz", "pass");
 
         users.put(user1.getId(),user1);
         users.put(user2.getId(),user2);
     }
 
 
-    public String FindUser(){
+    public String FindUser(Long id){
 
 
-        logger.debug("USER REQUESTED: "+ users.get(1L).toString());
+        logger.debug("USER REQUESTED: "+ users.get(id).toString());
 
-        return users.get(0L).toString();
+        return users.get(id).toString();
     }
 
     public Collection<User> findUsers(){

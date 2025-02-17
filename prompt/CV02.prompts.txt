@@ -3,3 +3,9 @@ ChatGPT
 what is Spring Boot DevTools?
 
     oveření: https://docs.spring.io/spring-boot/docs/1.5.16.RELEASE/reference/html/using-boot-devtools.html
+
+what is the best advantage of this
+
+How in spring I work with endpoints if I want to get parameters?
+as Query (/user?id=1) or as Path (/user/{id})
+and to return the instance of the User
