@@ -1,0 +1,5 @@
+ChatGPT
+
+what is Spring Boot DevTools?
+
+    oveření: https://docs.spring.io/spring-boot/docs/1.5.16.RELEASE/reference/html/using-boot-devtools.html
