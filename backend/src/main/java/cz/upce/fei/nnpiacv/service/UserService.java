@@ -31,7 +31,7 @@ public class UserService {
     public String FindUser(){
 
 
-        logger.info("USER REQUESTED: "+ users.get(1L).toString());
+        logger.debug("USER REQUESTED: "+ users.get(1L).toString());
 
         return users.get(0L).toString();
     }
